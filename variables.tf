@@ -12,3 +12,15 @@ variable "team_name" {
   description = "the team's full name"
   type        = string
 }
+
+variable "permission" {
+  description = "The user teams permission"
+  type        = string
+  default = "admin"
+}
+
+variable "role" {
+  description = "Team Membership role"
+  type = string
+  default = "member"
+}
